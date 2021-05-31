@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list"
+    android:name="com.miguelbra.pooplife.inventory.Comida_Inv_Fragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="4dp"
+    app:layoutManager="LinearLayoutManager"
+    tools:context=".inventario.Comida_Inv_Fragment"
+    tools:listitem="@layout/fragment_inv_item_simple_" />

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    tools:context=".inventario.InventoryActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/medicina_inv_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btns_invent_style"
+                    android:drawableTop="@drawable/ic_hospital_100dp"
+                    android:drawablePadding="4dp"
+                    android:fontFamily="casual"
+                    android:onClick="seleccionadoInventario"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="8dp"
+                    android:text="@string/medicamento"
+                    android:textColor="@drawable/btns_home_style_txt"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/comida_inv_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btns_invent_style"
+                    android:drawableTop="@drawable/ic_comida_inv_100dp"
+                    android:drawablePadding="4dp"
+                    android:fontFamily="casual"
+                    android:onClick="seleccionadoInventario"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="8dp"
+                    android:text="@string/comida"
+                    android:textColor="@drawable/btns_home_style_txt"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/ocio_inv_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btns_invent_style"
+                    android:drawableTop="@drawable/ic_ocio_100dp"
+                    android:drawablePadding="4dp"
+                    android:fontFamily="casual"
+                    android:onClick="seleccionadoInventario"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="8dp"
+                    android:text="@string/ocio"
+                    android:textColor="@drawable/btns_home_style_txt"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/mejoras_inv_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btns_invent_style"
+                    android:drawableTop="@drawable/ic_mejora_100dp"
+                    android:drawablePadding="4dp"
+                    android:fontFamily="casual"
+                    android:onClick="seleccionadoInventario"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="8dp"
+                    android:text="@string/mejoras"
+                    android:textColor="@drawable/btns_home_style_txt"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/vehiculos_inv_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btns_invent_style"
+                    android:drawableTop="@drawable/ic_vehiculos_100dp"
+                    android:drawablePadding="4dp"
+                    android:fontFamily="casual"
+                    android:onClick="seleccionadoInventario"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="8dp"
+                    android:text="@string/vehiculos"
+                    android:textColor="@drawable/btns_home_style_txt"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/casas_inv_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btns_invent_style"
+                    android:drawableTop="@drawable/ic_casas_100dp"
+                    android:drawablePadding="4dp"
+                    android:fontFamily="casual"
+                    android:onClick="seleccionadoInventario"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="8dp"
+                    android:text="@string/casas"
+                    android:textColor="@drawable/btns_home_style_txt"
+                    android:textStyle="bold" />
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

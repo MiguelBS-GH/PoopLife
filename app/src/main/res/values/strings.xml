@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">PoopLife</string>
+    <string name="autor">Miguel Bragado Sánchez</string>
+
+    <string name="trabajo">TRABAJO</string>
+    <string name="escuela">EDUCACIÓN</string>
+    <string name="hospital">HOSPITAL</string>
+    <string name="tienda">TIENDA</string>
+    <string name="inventario">INVENTARIO</string>
+    <string name="perfil">perfil</string>
+
+    --> TIPO OBJETOS
+    <string name="medicamento">MEDICAMENTOS</string>
+    <string name="comida">COMIDA</string>
+    <string name="ocio">OCIO</string>
+    <string name="mejoras">MEJORAS</string>
+    <string name="vehiculos">VEHICULOS</string>
+    <string name="casas">CASAS</string>
+
+
+    --> EMPLEOS
+    <string name="desempleado">Desempleado</string>
+
+    --> UNIDADES
+    <string name="max">/ 100</string>
+    <string name="velocidad">km/h</string>
+    <string name="moneda">€</string>
+    <string name="metros_cuadrados">m²</string>
+    <string name="euros_por_hora">€ / hora</string>
+    <string name="experiencia">exp</string>
+
+    --> UTILIDADES
+    <string name="buscar">Buscar</string>
+    <string name="estudiar">Estudiar</string>
+    <string name="usar_objeto">USAR</string>
+    <string name="malvender_objeto">MALVENDER</string>
+    <string name="tirar_objeto">TIRAR</string>
+    <string name="si">SI</string>
+    <string name="no">NO</string>
+    <string name="buscar_trabajo">Buscar trabajo</string>
+    <string name="trabajar">Trabajar</string>
+    <string name="dejar_trabajo">Dejar trabajo</string>
+    <string name="abrir">ABRIR</string>
+    <string name="coger_trabajo">Coger trabajo</string>
+    <string name="dormir">Dormir</string>
+    <string name="añadir_cesta">Añadir a la cesta</string>
+
+    --> ACTIVITY EDUCACION
+    <string name="buscador_educacion">BUSCADOR DE EDUCACIÓN</string>
+    <string name="educacion">Educación</string>
+    <string name="estado_estudiado">ESTUDIADO</string>
+
+    --> ACTIVITY TRABAJO
+    <string name="buscador_trabajo">BUSCADOR DE TRABAJO</string>
+    <string name="trabajo_hint">Trabajo</string>
+    <string name="empresa_descr">Empresa: </string>
+    <string name="sueldo_descr">Sueldo: </string>
+    <string name="necesario_descr">Necesario:</string>
+    <string name="nivel_descr">Nivel</string>
+
+    --> TIPOS TRABAJO
+    <string name="matematicas">Matemáticas</string>
+    <string name="letras">Letras</string>
+    <string name="informatica">Informática</string>
+    <string name="rural">Rural</string>
+    <string name="basico">Básico</string>
+
+    --> TIENDAS
+    <string name="farmacia">Farmacia</string>
+    <string name="alimentacion">Alimentación</string>
+    <string name="inmobiliaria">Inmobiliaria</string>
+    <string name="concesionario">Concesionario</string>
+    <string name="tienda_diversion">Tienda de Ocio</string>
+
+    -->
+    <string name="sin_casa">Sin techo</string>
+    <string name="sin_vehiculo">Sin vehiculo</string>
+    <string name="indefinido">Indefinido</string>
+
+    -->
+    <string name="sin_resultados"> No se ha encontrado ningun resultado. </string>
+    <string name="tener_en_cuenta_resultado">(Recuerde poner las tildes convenientes)</string>
+    <string name="seguro_estudiar">¿Estás seguro de que quieres estudiar esto?</string>
+    <string name="seguro_dejar_trabajo">¿Estás seguro de que quieres dejar el trabajo?</string>
+    <string name="seguro_comprar_coche">¿Estás seguro de que quieres comprar este coche?</string>
+    <string name="seguro_comprar">¿Estás seguro de que quieres comprar esto?</string>
+    <string name="te_costara_estudiar">Te costará </string>
+
+    --> ADVERTENCIA
+    <string name="no_dinero">NO TIENES SUFICIENTE DINERO</string>
+    <string name="ya_tienes_trabajo">YA TIENES UN TRABAJO</string>
+    <string name="nuevo_trabajo">Ahora trabajas de </string>
+    <string name="trabajo_dejado">Has dejado el trabajo</string>ç
+    <string name="sin_trabajo">Estás desempleado</string>
+    <string name="dormir_advert">Dormiste hasta recuperar toda la energía</string>
+    <string name="energia_llena">Ya estás lleno de energía</string>
+    <string name="dejado_trabajo">Ha dejado el trabajo</string>
+    <string name="roto_objeto">Se ha roto</string>
+    <string name="tienes_coche">Ya tienes ese coche</string>
+    <string name="comprado_coche">Has comprado un </string>
+    <string name="compra_exitosa">La compra se ha realizado con exito</string>
+    <string name="comprado_casa">Has comprado la casa de </string>
+    <string name="tienes_casa">Ya tienes esa casa</string>
+    <string name="no_comida">Necesitas alimentarte antes</string>
+    <string name="necesario_nivel">Es necesario nivel</string>
+    <string name="perdiendo_vida">Estás perdiendo vida</string>
+    <string name="vas_morir">¡No tienes salud, VAS A MORIR SI NO TE CURAS!</string>
+    <string name="has_muerto">HAS MUERTO</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#81D4FA</color>
+    <color name="colorPrimaryDark">#29B6F6</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorAccentSuave">#EBC3CE</color>
+    <color name="colorAccentSuave2">#F1ACBF</color>
+    <color name="colorSuave">#E1F5FE</color>
+    <color name="colorOscuro">#006D9E</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="verde_suave">#6DB87C</color>
+    <color name="verde_oscuro">#477550</color>
+    <color name="verde_fosforito">#1ECD41</color>
+    <color name="verde_fosforito_oscuro">#18A134</color>
+    <color name="amarillo_suave">#B4B86D</color>
+    <color name="amarillo_oscuro">#7E8141</color>
+</resources>
